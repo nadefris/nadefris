@@ -90,8 +90,8 @@ DATABASES = {
     'default': {
         'NAME': 'ml_db',
         'ENGINE': 'django.db.backends.mysql',
-        'USER': 'root',# enter USER
-        'PASSWORD': 'zelalem',#enter PASSWORD
+        'USER': '****',# enter USER
+        'PASSWORD': '****',#enter PASSWORD
         'HOST': 'localhost',
         'PORT': '',
         'OPTIONS': {
