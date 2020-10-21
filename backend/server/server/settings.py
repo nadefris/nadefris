@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework', # add django rest framework
     # apps
     'apps.endpoints',
+    'apps.ml',
 ]
 
 MIDDLEWARE = [
@@ -89,8 +90,8 @@ DATABASES = {
     'default': {
         'NAME': 'ml_db',
         'ENGINE': 'django.db.backends.mysql',
-        'USER': 'root',
-        'PASSWORD': 'zelalem',
+        'USER': 'root',# enter USER
+        'PASSWORD': 'zelalem',#enter PASSWORD
         'HOST': 'localhost',
         'PORT': '',
         'OPTIONS': {
